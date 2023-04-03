@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/layout_dich_vu"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_dich_vu"
+        android:backgroundTint="@color/lanender"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:id="@+id/img_dich_vu"
+            android:layout_width="166dp"
+            android:layout_height="98dp"
+            android:src="@drawable/bg_main2"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/txt_ten_dich_vu"
+            android:layout_width="160dp"
+            android:layout_height="26dp"
+            android:text="Hello! hiển thị dịch vụ, hãy nhấn vào để xem chi tiết"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_gia_dich_vu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="k"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_xemTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xem thông tin"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:visibility="gone"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/btn_chonDV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/btn_xoaDV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xóa"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/btn_suaDV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sửa"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
