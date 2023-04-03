@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/bg_dich_vu"
+    android:backgroundTint="@color/lanender"
+    android:id="@+id/lnGio">
+    <TextView
+        android:id="@+id/shiftTextView"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="17:00"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        />
+
+</LinearLayout>
